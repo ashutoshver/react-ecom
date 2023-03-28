@@ -1,0 +1,12 @@
+
+.main-content{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+@media screen and (min-width: 300px) and (max-width: 748px){
+    .main-content{
+        max-width: calc(100% - 20px);
+       
+    }
+}
