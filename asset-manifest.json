@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-ecom/static/css/main.83cf53f5.css",
+    "main.js": "/react-ecom/static/js/main.74361c60.js",
+    "static/media/banner-img.png": "/react-ecom/static/media/banner-img.0412d66280a0273effa2.png",
+    "static/media/newsletter-bg.jpeg": "/react-ecom/static/media/newsletter-bg.b6f22313149bdbb35069.jpeg",
+    "static/media/earbuds-prod-1.webp": "/react-ecom/static/media/earbuds-prod-1.8a82669f0f771bfe5709.webp",
+    "index.html": "/react-ecom/index.html",
+    "main.83cf53f5.css.map": "/react-ecom/static/css/main.83cf53f5.css.map",
+    "main.74361c60.js.map": "/react-ecom/static/js/main.74361c60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83cf53f5.css",
+    "static/js/main.74361c60.js"
+  ]
+}
