@@ -1,6 +1,6 @@
 import "./Home.css";
 import Banner from "./Banner/Banner";
-import Category from "./Category/Category";
+import Category from "./Category/Categories";
 import Products from "../Products/Products";
 import { useEffect, useContext } from "react";
 import { fetchDataFromApi } from "../../utils/api";

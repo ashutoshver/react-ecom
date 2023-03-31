@@ -1,35 +1,34 @@
 import React from "react";
-import {useNavigate} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import "./Category.css";
+import { Link } from "react-router-dom";
 
 
 
 
 const Category = ({ categories }) => {
 
-    
+
     const navigate = useNavigate();
 
-    const filter = () =>{
-
-    }
 
     return (
         <>
-        
+
             <div className="shop-by-category">
                 <div className="categories">
 
                     {categories?.map((e) => {
                         console.log(e.product)
-                        
+                        // console.log(e.title)
+
                         return (
-                          
-                                <div key={e.image} className="category"
-                                onClick={()=> navigate(`/category/1`)}
-                                >
+                            <Link to= {`/categories/${e.title}`} key={e.image}>
+                                <div className="category">
                                     <img src={e.image} alt="" />
-                                </div>
+                                </div></Link>
+
+
                         )
                     })}
                 </div>

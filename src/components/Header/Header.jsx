@@ -1,5 +1,4 @@
 import "./Header.css";
-import { Context } from "../../utils/Context";
 import { TbSearch } from 'react-icons/tb';
 import { CgShoppingCart } from 'react-icons/cg';
 import { AiOutlineHeart } from 'react-icons/ai'
