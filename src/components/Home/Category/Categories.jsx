@@ -23,7 +23,7 @@ const Category = ({ categories }) => {
 
                         return (
                             <Link to= {`/categories/${e.title}`} key={e.image}>
-                                <div className="category">
+                                <div className="category" style={{width: "100%"}}>
                                     <img src={e.image} alt="" />
                                 </div></Link>
 
