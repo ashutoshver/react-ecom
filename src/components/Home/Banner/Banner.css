@@ -73,7 +73,7 @@
 
 
 
-@media screen and (max-width: 748px) and (min-width: 300px) {
+@media screen and (max-width: 748px) and (min-width: 250px) {
     
     .content{
         flex-direction: column-reverse;
