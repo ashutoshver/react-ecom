@@ -20,7 +20,6 @@ const Category = ({ categories }) => {
 
                     {categories?.map((e) => {
                         console.log(e.product)
-                        // console.log(e.title)
 
                         return (
                             <Link to= {`/categories/${e.title}`} key={e.image}>

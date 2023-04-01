@@ -23,6 +23,7 @@ const Home = () => {
 
     const getProducts = () =>{
         fetchDataFromApiPro().then(res =>{
+            console.log(fetchDataFromApi)
              setProducts(res);
         })
     }

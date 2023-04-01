@@ -5,12 +5,11 @@
 .categories{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     gap: 10px;
 }
 .category{
     background-color: black;
-    width: calc(25% - 10px);
+    width:100%;
     cursor: pointer;
     overflow: hidden;
 }
@@ -37,4 +36,7 @@
      .category{
         width: calc(50%-5px);
     } 
+    .categories{
+        flex-wrap: wrap;
+    }
 }
