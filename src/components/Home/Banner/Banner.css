@@ -10,7 +10,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    flex-direction: row;
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
@@ -75,6 +74,7 @@
 
 
 @media screen and (max-width: 748px) and (min-width: 300px) {
+  
     
     .content{
         flex-direction: column-reverse;
@@ -90,7 +90,7 @@
     .text-content{
         width: 80%;
         margin: auto;
-        margin-top: 30%;
+        margin-top: 140px;
     }
     .text-content h1{
         font-size: 80px;
