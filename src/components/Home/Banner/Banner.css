@@ -47,6 +47,7 @@
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 40px;
+    text-align: justify;
 }
 
 .ctas{
@@ -73,11 +74,12 @@
 
 
 
-@media screen and (max-width: 748px) and (min-width: 250px) {
+@media screen and (max-width: 748px) and (min-width: 300px) {
     
     .content{
         flex-direction: column-reverse;
         max-width: calc(100% - 20px);
+        margin: auto;
     }
     .banner-img{ 
         width: 200px;
@@ -99,6 +101,9 @@
         font-size: 14px;
         line-height: 20px;
         margin-bottom: 20px;
+    }
+    .banner-cta{
+        font-size: 10px;
     }
 }
 
