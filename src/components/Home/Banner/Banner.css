@@ -84,8 +84,7 @@
     .banner-img{ 
         width: 200px;
         margin: auto;
-        margin-bottom: 20px;
-        margin-top: 1px;
+        margin-top: -30px;
         
     } 
     .text-content{
