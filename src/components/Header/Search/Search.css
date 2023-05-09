@@ -95,7 +95,7 @@
 
 
 
-@media screen and (min-width: 300px) and (max-width: 748px) {
+@media screen and (min-width: 300px) and (max-width: 768px) {
     .form-field{
         padding: 10px 50px;
     }

@@ -9,6 +9,7 @@
     height: 100%;
     display: flex;
     justify-content: flex-end;
+    flex-direction: row;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -19,10 +20,8 @@
     z-index: 9;
     width: 500px;
     margin-right: 60px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 0;
-    transition: none;
-    transform: none;
 } 
 .text-content{
     position: absolute;
@@ -46,13 +45,11 @@
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 40px;
-    text-align: justify;
 }
 
 .ctas{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     gap: 20px;
 }
 .banner-cta{
@@ -60,7 +57,9 @@
     font-size: 13px;
     font-weight: 500;
     border: 2px solid white;
+    width: fit-content;
     padding: 10px 20px;
+    transition: all ease 0.3s;
     cursor: pointer;
 }
 .banner-cta:hover{
@@ -73,7 +72,7 @@
 
 
 
-@media screen and (max-width: 748px) and (min-width: 300px) {
+@media screen and (max-width: 768px) and (min-width: 300px) {
   
     
     .content{
@@ -83,15 +82,9 @@
     }
     .banner-img{ 
         width: 200px;
-        margin: auto;
-        margin-top: -35px;
+        margin-bottom: 20px;
         
     } 
-    .text-content{
-        width: 80%;
-        margin: auto;
-        margin-top: 140px;
-    }
     .text-content h1{
         font-size: 80px;
     }
@@ -107,26 +100,15 @@
 }
 
 
-@media screen and (max-width: 1100px) and (min-width: 749px)  {
-    .content{
-      
-        flex-direction: column-reverse;
-       
-        
-    }
-    .text-content h1{
-        font-size: 100px;
-    }
+@media screen and (min-width: 1500px)  {
+  
     .banner-img{ 
-        width: 250px;
-        margin: auto; 
-        margin-top: -30px;
+        width: 600px;
+        margin-right: 0; 
+        margin-top: 0;
     } 
     .text-content{
-        
-        width: 90%;
-        margin: auto;
-        margin-top: 150px;
-       
+        left: 0;
     }
+   
 }

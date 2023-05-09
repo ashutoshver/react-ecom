@@ -124,7 +124,7 @@
 }
 
 
-@media screen and (min-width: 300px) and (max-width: 748px) {
+@media screen and (min-width: 300px) and (max-width: 768px) {
     .single-product-main-content {
         margin: 20px 0;
     }
